@@ -3,7 +3,7 @@ from easydict import EasyDict as edict
 __cfg__ = edict()
 
 # for dataset dir
-__cfg__.DATA_DIR = 'DATA_DIR/T_DATA'
+__cfg__.DATA_DIR = '/Voxelnet/crop_data/T_DATA'
 __cfg__.KITTY_EVAL_SCRIPT = "kitti_eval/launch_test.sh"
 __cfg__.CALIB_DIR = ''
 
